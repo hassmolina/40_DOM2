@@ -11,7 +11,7 @@ function todoList() {
     document.getElementById('todoList').appendChild(newItem);
     var icono = document.createElement("i");
     icono.setAttribute("class", "fa fa-trash");
-    icono.style.marginLeft = "300px";
+    icono.style.marginLeft = "600px";
     newItem.appendChild(checkbox);
     newItem.appendChild(text)
     newItem.appendChild(icono);

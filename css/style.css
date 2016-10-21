@@ -1,0 +1,14 @@
+h1{
+  background-color: #14ddd7;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+
+.linea{
+  text-decoration: line-through;
+}
+
+textarea{
+  margin-bottom: 40%;
+}
