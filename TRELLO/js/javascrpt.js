@@ -34,6 +34,7 @@ function todoList() {
 
 
         botontarjetaguardar.onclick = function(){
+        
           var span = document.createElement("span");
           var spanGuardarTexto = textotarjeta.value;
           var guardarSpan = document.createTextNode(spanGuardarTexto);
