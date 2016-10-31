@@ -1,4 +1,53 @@
+#btnInicio, #btnLista, button{
+  border: none;
+  padding: 1%;
+  border-radius: 20px;
+  color: white;
+}
+#btnInicio{
+  background-color: #cf1b46;
+  display: inline-block;
+}
+
+#btnLista{
+  background-color: #25afd6;
+  display: inline-block;
+}
+
+button{
+  background-color: #e65111;
+}
+
+#txtLista{
+  border: black solid 5px;
+  padding: 15;
+}
+
+.titulo{
+  background-color: #20860f;
+  /*display: inline-block;*/
+  padding: 3%;
+  border-radius: 40px;
+}
+
 
 button{
   display: block;
+}
+
+p{
+  padding: 2%
+  background-color: gray;
+  display: inline-block;
+}
+
+#divLista{
+  background-color: pink;
+  width: 20%;
+  display: inline-block;
+  margin-right : 5%;
+}
+
+.inline{
+  float: left;
 }
