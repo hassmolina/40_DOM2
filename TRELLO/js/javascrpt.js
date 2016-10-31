@@ -19,7 +19,7 @@ function todoList() {
 
       //  document.getElementById("btnInicio2").style.display = 'none';
 
-
+  document.getElementById("btnInicio").style.display = 'none';
 
     botonlista.onclick = function() {
         var div = document.createElement("div"); //NUEVO DIV
@@ -33,6 +33,8 @@ function todoList() {
         document.getElementById("txtLista").style.display = 'none';
         document.getElementById("btnLista").style.display = 'none';
         document.getElementById("btnInicio").style.display = 'none';
+
+
         //2 BOTONES
         //BOTON AÑADIR TARJETA
         var botontarjeta = document.createElement("button");
